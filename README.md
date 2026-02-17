@@ -123,8 +123,9 @@ The dataset was cleaned and standardised before analysis, with redundant columns
 
 ## 📁 Repository Structure
 
+```
 customer-loyalty-analytics/
-|
+│
 ├── data/
 │   ├── turtle_reviews.csv
 │   ├── turtle_reviews_clean.csv
@@ -143,7 +144,7 @@ customer-loyalty-analytics/
 │   └── Turtle_Games_Presentation.pptx
 │
 └── README.md
-
+```
 
 
 
