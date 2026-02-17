@@ -98,27 +98,41 @@ The dataset was cleaned and standardised before analysis, with redundant columns
 
 ## 🗂️ Repository Contents
 
-💡 **Start here:** If you're new to the project, begin with the **Technical Report** or **Presentation Slides** for a quick overview, then explore the notebook and code for the full analysis workflow.
+💡 **Start here:** If you're new to the project, begin with the **Technical Report** or **Presentation Slides** for a quick overview, then explore the notebook and code for the full workflow.
 
-- 📓 **[Python Notebook](notebooks/Turtle_Games_Python_Notebook.ipynb)** → End-to-end analysis including data cleaning, EDA, regression modelling, clustering, and sentiment analysis  
+- 📓 **Python Notebook**  
+  End-to-end analysis including data cleaning, EDA, regression modelling, clustering, and sentiment analysis.  
+  👉 https://github.com/raksha9917/customer-loyalty-analytics/blob/main/notebooks/Turtle_Games_Python_Notebook.ipynb
 
-- 📊 **[R Script](scripts/Turtle_Games_R_Analysis.R)** → Supporting statistical analysis and validation of results using R  
+- 📊 **R Script**  
+  Supporting statistical analysis and validation of results using R.  
+  👉 https://github.com/raksha9917/customer-loyalty-analytics/blob/main/scripts/Turtle_Games_R_Analysis.R
 
-- 📁 **Data**
-  - 📄 [turtle_reviews.csv](data/turtle_reviews.csv) → Raw customer dataset  
-  - 📄 [turtle_reviews_clean.csv](data/turtle_reviews_clean.csv) → Cleaned dataset used for modelling  
-  - 📄 [metadata_turtle_games.txt](data/metadata_turtle_games.txt) → Dataset documentation and variable descriptions  
+- 📄 **Technical Report**  
+  Detailed explanation of methodology, modelling approach, findings, and business recommendations.  
+  👉 https://github.com/raksha9917/customer-loyalty-analytics/blob/main/reports/Technical_Report.pdf
 
-- 📄 **[Technical Report](reports/Technical_Report.pdf)** → Detailed explanation of methodology, findings, and business recommendations  
+- 📊 **Presentation Slides (PDF – viewable in browser)**  
+  Business-focused summary of insights, segmentation, and strategic recommendations.  
+  👉 https://github.com/raksha9917/customer-loyalty-analytics/blob/main/presentation/Turtle%20Games%20Presentation.pdf
 
-- 📊 **Presentation Slides (PDF)** →  
-[View slides](https://github.com/raksha9917/customer-loyalty-analytics/blob/main/presentation/Turtle%20Games%20Presentation.pdf) → Business-focused summary of insights and strategy  
+---
+
+- 📁 **Data Files**
+  
+  - 📄 Raw dataset  
+    👉 https://github.com/raksha9917/customer-loyalty-analytics/blob/main/data/turtle_reviews.csv
+  - 📄 Cleaned dataset used for modelling  
+    👉 https://github.com/raksha9917/customer-loyalty-analytics/blob/main/data/turtle_reviews_clean.csv
+  - 📄 Dataset metadata and variable descriptions  
+    👉 https://github.com/raksha9917/customer-loyalty-analytics/blob/main/data/metadata_turtle_games.txt 
+
+---
 
 - 📘 **[README.md](README.md)** → Project overview, methodology, and instructions  
 
-- 📜 **LICENSE** → MIT License governing use of this repository  
+- 📜 **LICENSE** → MIT License governing use of this repository 
 
-```
 
 
 
