@@ -111,7 +111,7 @@ The dataset was cleaned and standardised before analysis, with redundant columns
 
 - 📄 **[Technical Report](reports/Technical_Report.pdf)** → Detailed explanation of methodology, findings, and business recommendations  
 
-- 📊 **[Presentation Slides](presentation/Turtle_Games_Presentation.pptx)** → Business-focused summary of insights and strategy  
+- 📊 **[Presentation Slides](presentation/Turtle_Games_Presentation.pdf)** → Business-focused summary of insights and strategy  
 
 - 📘 **[README.md](README.md)** → Project overview, methodology, and instructions  
 
