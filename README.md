@@ -87,38 +87,34 @@ The dataset was cleaned and standardised before analysis, with redundant columns
 | Category | Tools / Libraries | Role in Project |
 |----------|------------------|-----------------|
 | **Languages** | Python 🐍 , R 📈  | Used for modelling, statistical analysis, and visualisation |
-| **Data Handling** | pandas, NumPy | Data cleaning, transformation, and preparation |
-| **Visualisation** | matplotlib, seaborn | Exploratory analysis and results visualisation |
-| **Modelling** | scikit-learn, statsmodels | Regression modelling, decision trees, clustering |
-| **Text Analysis** | nltk, wordcloud | Sentiment analysis and review exploration |
+| **Data Handling** | Pandas, NumPy | Data cleaning, transformation, and preparation |
+| **Visualisation** | Matplotlib, Seaborn | Exploratory analysis and results visualisation |
+| **Modelling** | Scikit-learn, Statsmodels | Regression modelling, decision trees, clustering |
+| **Text Analysis** | NLTK, WordCloud | Sentiment analysis and review exploration |
 | **Techniques Used** | Regression, Decision Trees, K-Means, NLP, EDA | Core analytical methods applied to answer business questions |
 
 
 ---
 
-## 📁 Repository Structure
+## 🗂️ Repository Contents
 
-```
-customer-loyalty-analytics/
-│
-├── data/
-│   ├── turtle_reviews.csv
-│   ├── turtle_reviews_clean.csv
-│   └── metadata_turtle_games.txt
-│
-├── notebooks/
-│   └── Turtle_Games_Python_Notebook.ipynb
-│
-├── scripts/
-│   └── Turtle_Games_R_Analysis.R
-│
-├── reports/
-│   └── Technical_Report.pdf
-│
-├── presentation/
-│   └── Turtle_Games_Presentation.pptx
-│
-└── README.md
+- 📓 **[Python Notebook](notebooks/Turtle_Games_Python_Notebook.ipynb)** → End-to-end analysis including data cleaning, EDA, regression modelling, clustering, and sentiment analysis  
+
+- 📊 **[R Script](scripts/Turtle_Games_R_Analysis.R)** → Supporting statistical analysis and validation of results using R  
+
+- 📁 **Data**
+  - 📄 [turtle_reviews.csv](data/turtle_reviews.csv) → Raw customer dataset  
+  - 📄 [turtle_reviews_clean.csv](data/turtle_reviews_clean.csv) → Cleaned dataset used for modelling  
+  - 📄 [metadata_turtle_games.txt](data/metadata_turtle_games.txt) → Dataset documentation and variable descriptions  
+
+- 📄 **[Technical Report](reports/Technical_Report.pdf)** → Detailed explanation of methodology, findings, and business recommendations  
+
+- 📊 **[Presentation Slides](presentation/Turtle_Games_Presentation.pptx)** → Business-focused summary of insights and strategy  
+
+- 📘 **[README.md](README.md)** → Project overview, methodology, and instructions  
+
+- 📜 **LICENSE** → MIT License governing use of this repository  
+
 ```
 
 
