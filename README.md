@@ -50,39 +50,25 @@ The dataset was cleaned and standardised before analysis, with redundant columns
 
 ## 🔎 Analytical Approach
 
-### Data Preparation
-- Cleaned and validated the dataset in Python  
-- Standardised column names and removed redundant variables  
-- Exported a cleaned dataset to ensure reproducibility across Python and R
-
-### Exploratory Data Analysis
-- Examined distributions, skewness, and correlations  
-- Investigated relationships between income, spending behaviour, and loyalty  
-- Explored how demographic factors relate to engagement
-
-### Predictive Modelling
-- Built **multiple linear regression models** to identify key loyalty drivers  
-- Trained a **Decision Tree Regressor** with pruning to improve interpretability  
-- Evaluated model performance using train–test splits and diagnostic metrics
-
-### Customer Segmentation
-- Applied **K-Means clustering** to identify customer groups  
-- Used Elbow and Silhouette methods to determine optimal cluster count  
-- Developed behavioural customer personas from spending and income patterns
-
-### Sentiment Analysis
-- Cleaned and tokenised customer reviews  
-- Generated word frequencies and visualisations  
-- Calculated sentiment polarity to identify drivers of satisfaction and dissatisfaction
+| Stage | What Was Done | Purpose |
+|------|---------------|---------|
+| **Data Preparation** | Cleaned dataset, standardised variables, removed redundant columns, exported clean CSV | Ensure data quality, consistency, and reproducibility across Python and R workflows |
+| **Exploratory Data Analysis** | Analysed distributions, correlations, and outliers across demographic and behavioural variables | Understand relationships between income, spending behaviour, and loyalty engagement |
+| **Predictive Modelling** | Built multiple linear regression models and trained a pruned decision tree regressor | Identify key drivers of loyalty and evaluate predictive capability |
+| **Customer Segmentation** | Applied K-Means clustering using income and spending features | Identify distinct customer groups for targeted marketing strategies |
+| **Sentiment Analysis** | Cleaned review text, generated word frequencies and sentiment scores | Understand customer satisfaction drivers and identify product issues |
 
 ---
 
 ## 📊 Key Findings
 
-- Income and spending behaviour jointly explain **~83% of loyalty variation**  
-- Spending score is the strongest predictor of loyalty engagement  
-- Five distinct customer segments emerged with clear marketing implications  
-- Reviews show strong positive sentiment overall, but **product quality issues** appear repeatedly in negative feedback  
+| Insight Area | Finding | Business Meaning |
+|-------------|---------|------------------|
+| **Loyalty Drivers** | Income and spending behaviour explain ~83% of loyalty variation | Loyalty engagement is predictable and influenced by financial capacity |
+| **Strongest Predictor** | Spending score has the strongest relationship with loyalty points | Customer behaviour matters more than demographics alone |
+| **Customer Segments** | Five distinct groups identified through clustering | Marketing strategies can be tailored to specific behavioural profiles |
+| **Customer Sentiment** | Reviews are mostly positive but highlight recurring quality concerns | Operational improvements could increase retention and satisfaction |
+
 
 ---
 
@@ -98,26 +84,15 @@ The dataset was cleaned and standardised before analysis, with redundant columns
 
 ## 🛠 Tools & Technologies
 
-### Languages
-- Python 🐍  
-- R  📈
+| Category | Tools / Libraries | Role in Project |
+|----------|------------------|-----------------|
+| **Languages** | Python 🐍 , R 📈  | Used for modelling, statistical analysis, and visualisation |
+| **Data Handling** | pandas, NumPy | Data cleaning, transformation, and preparation |
+| **Visualisation** | matplotlib, seaborn | Exploratory analysis and results visualisation |
+| **Modelling** | scikit-learn, statsmodels | Regression modelling, decision trees, clustering |
+| **Text Analysis** | nltk, wordcloud | Sentiment analysis and review exploration |
+| **Techniques Used** | Regression, Decision Trees, K-Means, NLP, EDA | Core analytical methods applied to answer business questions |
 
-### Python Libraries
-- Pandas  
-- NumPy  
-- Matplotlib  
-- Seaborn  
-- Scikit-learn  
-- statsmodels  
-- NLTK 
-- wordcloud  
-
-### Techniques
-- Multiple Linear Regression  
-- Decision Tree Regression  
-- K-Means Clustering  
-- Sentiment Analysis (NLP)  
-- Exploratory Data Analysis  
 
 ---
 
