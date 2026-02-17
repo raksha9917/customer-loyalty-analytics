@@ -98,6 +98,8 @@ The dataset was cleaned and standardised before analysis, with redundant columns
 
 ## 🗂️ Repository Contents
 
+💡 **Start here:** If you're new to the project, begin with the **Technical Report** or **Presentation Slides** for a quick overview, then explore the notebook and code for the full analysis workflow.
+
 - 📓 **[Python Notebook](notebooks/Turtle_Games_Python_Notebook.ipynb)** → End-to-end analysis including data cleaning, EDA, regression modelling, clustering, and sentiment analysis  
 
 - 📊 **[R Script](scripts/Turtle_Games_R_Analysis.R)** → Supporting statistical analysis and validation of results using R  
