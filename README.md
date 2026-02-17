@@ -120,3 +120,29 @@ The dataset was cleaned and standardised before analysis, with redundant columns
 - Exploratory Data Analysis  
 
 ---
+
+## 📁 Repository Structure
+
+customer-loyalty-prediction/
+│
+├── data/
+│ ├── turtle_reviews.csv
+│ ├── turtle_reviews_clean.csv
+│ └── metadata_turtle_games.txt
+│
+├── notebooks/
+│ └── Turtle_Games_Python_Notebook.ipynb
+│
+├── scripts/
+│ └── Turtle_Games_R_Analysis.R
+│
+├── reports/
+│ └── Technical_Report.pdf
+│
+├── presentation/
+│ └── Turtle_Games_Presentation.pptx
+│
+└── README.md
+
+
+
